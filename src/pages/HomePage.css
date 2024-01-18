@@ -1,0 +1,232 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.a-rea-de,
+.admin6 {
+  font-family: var(--font-inter);
+}
+.admin6 {
+  font-weight: 700;
+}
+.estgios-propostos {
+  color: var(--color-steelblue-100);
+}
+.a-rea-de-container {
+  position: absolute;
+  top: 0;
+  left: 62px;
+  letter-spacing: -0.01em;
+  display: inline-block;
+  width: 629px;
+}
+.adm-icon,
+.body6 {
+  position: absolute;
+  width: 1427px;
+}
+.adm-icon {
+  top: 436px;
+  left: 3px;
+  height: 411px;
+  object-fit: cover;
+}
+.body6 {
+  top: 177px;
+  left: -3px;
+  height: 847px;
+}
+.barra-child4,
+.barra6 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 114px;
+}
+.barra-child4 {
+  width: 100%;
+  left: 0;
+  background-color: var(--color-white);
+  border-bottom: 3px solid var(--color-steelblue-100);
+  box-sizing: border-box;
+}
+.barra6 {
+  width: 100.14%;
+  left: -0.14%;
+}
+.admin7 {
+  position: relative;
+  letter-spacing: 0.05em;
+}
+.admin-wrapper4 {
+  top: 2px;
+  left: 94px;
+  border-bottom: 1px solid var(--color-steelblue-100);
+  width: 42px;
+  height: 15px;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+}
+.admin-wrapper4,
+.mrio-silva-wrapper4,
+.x-wrapper4 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.x-wrapper4 {
+  width: calc(100% - 126px);
+  top: 3px;
+  right: -11px;
+  left: 137px;
+  height: 10px;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  cursor: pointer;
+  font-size: var(--font-size-base);
+  font-family: var(--font-arial);
+}
+.mrio-silva-wrapper4 {
+  top: 4px;
+  left: -10px;
+  height: 13px;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-2xs);
+  color: var(--color-black);
+}
+.adm-name6,
+.logo-icon6 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: 1225px;
+  width: 154px;
+  height: 21px;
+}
+.logo-icon6 {
+  top: calc(50% - 23.5px);
+  left: 0;
+  width: 243px;
+  height: 47px;
+  object-fit: cover;
+}
+.logo6 {
+  width: 243px;
+  height: 55px;
+}
+.estgios12,
+.logo6 {
+  position: relative;
+  cursor: pointer;
+}
+.empresas9 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 43px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-inter);
+  color: var(--color-steelblue-100);
+  text-align: left;
+  display: inline-block;
+  width: 101px;
+}
+.administradores8:hover,
+.docentes9:hover,
+.empresas9:hover {
+  mix-blend-mode: normal;
+  color: var(--color-lightskyblue);
+}
+.administradores8,
+.docentes9,
+.empresas9 {
+  position: absolute;
+  left: 0;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+.docentes9 {
+  top: 21px;
+  display: inline-block;
+  width: 101px;
+}
+.administradores8 {
+  top: -1px;
+}
+.submenu6 {
+  position: absolute;
+  top: 35px;
+  left: 5px;
+  background-color: var(--color-white);
+  width: 102px;
+  height: 58px;
+  overflow: hidden;
+  display: none;
+  opacity: 0;
+}
+.submenu6.animate {
+  animation: 0.3s ease 0s 1 normal forwards fade-in;
+}
+.estgios13 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.perfissubmenu6 {
+  position: relative;
+  width: 66px;
+  height: 35px;
+}
+.perfissubmenu6:hover {
+  background-color: var(--color-deepskyblue-200);
+}
+.perfissubmenu6:hover .submenu6 {
+  display: flex;
+}
+.categories6,
+.logo-parent4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.categories6 {
+  width: 642.1px;
+  align-items: flex-start;
+}
+.logo-parent4 {
+  position: absolute;
+  top: 30px;
+  left: 1px;
+  align-items: center;
+  padding: 0 var(--padding-36xl);
+}
+.home-page,
+.menu6 {
+  text-align: left;
+  font-family: var(--font-inter);
+}
+.menu6 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 114px;
+  font-size: var(--font-size-xs);
+  color: var(--color-steelblue-100);
+}
+.home-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}

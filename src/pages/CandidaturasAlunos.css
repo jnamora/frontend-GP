@@ -1,0 +1,991 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.candidaturas-de-alunos {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  letter-spacing: -0.02em;
+}
+.nesta-pgina-poder {
+  font-weight: 500;
+}
+.nesta-pgina-poder-container1 {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.01em;
+  display: inline-block;
+  width: 615px;
+}
+.body2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 615px;
+  height: 118px;
+}
+.perodo-de-estgio6,
+.wrapper14 {
+  position: absolute;
+  top: 182px;
+  left: 1px;
+}
+.perodo-de-estgio6 {
+  top: 167px;
+  font-size: var(--font-size-xs-5);
+  letter-spacing: 0.05em;
+  color: var(--color-steelblue-100);
+}
+.body1 {
+  position: absolute;
+  top: 154px;
+  left: 58px;
+  width: 615px;
+  height: 213px;
+}
+.alunos-sem-estgio1 {
+  position: absolute;
+  top: 1px;
+  left: 1.1px;
+  font-size: var(--font-size-mid-5);
+  letter-spacing: 0.04em;
+  display: inline-block;
+  width: 300.8px;
+  height: 21px;
+}
+.alunos-sem-estgio-child,
+.alunos-sem-estgio-child1,
+.alunos-sem-estgio-child2,
+.alunos-sem-estgio-inner,
+.alunos-sem-estgio-item {
+  position: absolute;
+  top: 76px;
+  left: 1.1px;
+  background-color: var(--color-gray-100);
+  border-bottom: 2px solid var(--color-steelblue-100);
+  box-sizing: border-box;
+  width: 1321.9px;
+  height: 52px;
+}
+.alunos-com-estgio-child1:hover,
+.alunos-com-estgio-child2:hover,
+.alunos-com-estgio-child:hover,
+.alunos-com-estgio-inner:hover,
+.alunos-com-estgio-item:hover,
+.alunos-sem-estgio-child1:hover,
+.alunos-sem-estgio-child2:hover,
+.alunos-sem-estgio-child:hover,
+.alunos-sem-estgio-inner:hover,
+.alunos-sem-estgio-item:hover {
+  background-color: var(--color-skyblue);
+}
+.alunos-sem-estgio-child1,
+.alunos-sem-estgio-child2,
+.alunos-sem-estgio-inner,
+.alunos-sem-estgio-item {
+  top: 128px;
+  width: 1319.8px;
+  height: 55px;
+}
+.alunos-sem-estgio-child1,
+.alunos-sem-estgio-child2,
+.alunos-sem-estgio-inner {
+  top: 183px;
+  width: 1321.9px;
+  height: 52px;
+}
+.alunos-sem-estgio-child1,
+.alunos-sem-estgio-child2 {
+  top: 235px;
+}
+.alunos-sem-estgio-child2 {
+  top: 287px;
+}
+.b94,
+.email,
+.login,
+.n-estudante,
+.nome1 {
+  position: absolute;
+  top: 0;
+  left: 297.6px;
+  font-size: var(--font-size-mid-5);
+  letter-spacing: 0.04em;
+  display: inline-block;
+  color: var(--color-steelblue-100);
+  width: 25.2px;
+}
+.email,
+.login,
+.n-estudante,
+.nome1 {
+  top: 46px;
+  left: 0;
+  font-size: var(--font-size-xs-5);
+  width: 97.8px;
+}
+.email,
+.login,
+.nome1 {
+  left: 181.9px;
+  width: 38.9px;
+}
+.email,
+.login {
+  left: 410.2px;
+  width: 40px;
+}
+.email {
+  left: 555.3px;
+}
+.div13,
+.wrapper15 {
+  position: absolute;
+  width: 94.7px;
+}
+.div13 {
+  top: 0;
+  left: 0;
+  letter-spacing: 0.04em;
+  display: inline-block;
+}
+.wrapper15 {
+  top: 91px;
+  left: 1.1px;
+  height: 22px;
+}
+.antnio-carvalho,
+.carlos-barreiros,
+.div14,
+.div15,
+.div16,
+.div17 {
+  position: absolute;
+  top: 144px;
+  left: 1.1px;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  width: 97.8px;
+}
+.antnio-carvalho,
+.carlos-barreiros,
+.div15,
+.div16,
+.div17 {
+  top: 250px;
+  width: 95.7px;
+}
+.antnio-carvalho,
+.carlos-barreiros,
+.div16,
+.div17 {
+  top: 303px;
+  width: 96.8px;
+}
+.antnio-carvalho,
+.carlos-barreiros,
+.div17 {
+  top: 197px;
+}
+.antnio-carvalho,
+.carlos-barreiros {
+  top: 303px;
+  left: 181.9px;
+  width: 166.2px;
+}
+.carlos-barreiros {
+  top: 250px;
+  width: 154.6px;
+}
+.aalves,
+.alberto,
+.alberto-silva,
+.ana,
+.ana-alves1,
+.ana-carvalhinho,
+.dourado,
+.fonseca {
+  position: absolute;
+  top: 197px;
+  left: 181.9px;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  width: 94.7px;
+}
+.aalves,
+.alberto,
+.alberto-silva,
+.ana,
+.ana-carvalhinho,
+.dourado,
+.fonseca {
+  top: 144px;
+  width: 123px;
+}
+.aalves,
+.alberto,
+.ana,
+.ana-carvalhinho,
+.dourado,
+.fonseca {
+  top: 91px;
+  width: 157.8px;
+}
+.aalves,
+.alberto,
+.ana,
+.dourado,
+.fonseca {
+  left: 410.2px;
+  width: 34.7px;
+}
+.aalves,
+.alberto,
+.dourado,
+.fonseca {
+  top: 144px;
+  width: 68.4px;
+}
+.aalves,
+.dourado,
+.fonseca {
+  top: 197px;
+  width: 61px;
+}
+.dourado,
+.fonseca {
+  top: 250px;
+  width: 75.7px;
+}
+.dourado {
+  top: 303px;
+  width: 79.9px;
+}
+.aalvesstudentdeiucpt,
+.acarvalhostudentdeiucpt,
+.albertostudentdeiucpt,
+.barreirosstudentdeiucpt,
+.carvalhinhostudentdeiucpt {
+  position: absolute;
+  top: 252px;
+  left: 555.3px;
+  font-size: var(--font-size-mid-5);
+  letter-spacing: 0.04em;
+  display: inline-block;
+  width: 319.7px;
+}
+.aalvesstudentdeiucpt,
+.acarvalhostudentdeiucpt,
+.albertostudentdeiucpt,
+.carvalhinhostudentdeiucpt {
+  top: 199px;
+  width: 285px;
+}
+.acarvalhostudentdeiucpt,
+.albertostudentdeiucpt,
+.carvalhinhostudentdeiucpt {
+  top: 146px;
+  width: 299.7px;
+}
+.acarvalhostudentdeiucpt,
+.carvalhinhostudentdeiucpt {
+  top: 93px;
+  width: 351.3px;
+}
+.acarvalhostudentdeiucpt {
+  top: 304px;
+  width: 329.2px;
+}
+.no-atribudo1 {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+.atribuido,
+.atribuido1,
+.atribuido2,
+.atribuido3,
+.atribuido4 {
+  position: absolute;
+  top: 90px;
+  left: 1070px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-black);
+  width: 129.4px;
+  height: 27px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.atribuido1,
+.atribuido2,
+.atribuido3,
+.atribuido4 {
+  top: 138px;
+}
+.atribuido2,
+.atribuido3,
+.atribuido4 {
+  top: 195px;
+}
+.atribuido3,
+.atribuido4 {
+  top: 246px;
+}
+.atribuido4 {
+  top: 300px;
+}
+.editar10,
+.editar11,
+.editar12,
+.editar13,
+.editar14 {
+  position: absolute;
+  top: 93px;
+  left: 1259.9px;
+  font-size: var(--font-size-mid-5);
+  letter-spacing: 0.04em;
+  color: var(--color-steelblue-100);
+  display: inline-block;
+  width: 54.7px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.editar11,
+.editar12,
+.editar13,
+.editar14 {
+  top: 145px;
+}
+.editar12,
+.editar13,
+.editar14 {
+  top: 199px;
+}
+.editar13,
+.editar14 {
+  top: 251px;
+}
+.editar14 {
+  top: 304px;
+}
+.alunos-sem-estgio {
+  position: absolute;
+  top: 451px;
+  left: 57px;
+  width: 1323px;
+  height: 339px;
+  font-size: var(--font-size-lg);
+}
+.atribuido5,
+.atribuido6 {
+  border: 1px solid var(--color-steelblue-100);
+  color: var(--color-steelblue-100);
+}
+.atribuido5 {
+  position: absolute;
+  top: 94px;
+  left: 1068.5px;
+  border-radius: var(--br-81xl);
+  box-sizing: border-box;
+  width: 145.1px;
+  height: 27px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  font-size: var(--font-size-xs);
+  
+}
+.atribuido6 {
+  top: 142px;
+}
+.atribuido6,
+.atribuido7,
+.atribuido8,
+.atribuido9 {
+  position: absolute;
+  left: 1068.5px;
+  border-radius: var(--br-81xl);
+  width: 145.1px;
+  height: 27px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-xs);
+}
+.atribuido7 {
+  top: 196px;
+  border: 1px solid var(--color-steelblue-100);
+  color: var(--color-steelblue-100);
+}
+.atribuido8,
+.atribuido9 {
+  background-color: var(--color-steelblue-100);
+  color: var(--color-white);
+}
+.atribuido8 {
+  cursor: pointer;
+  top: 252px;
+}
+.atribuido9 {
+  top: 304px;
+}
+.alunos-com-estgio-child,
+.alunos-com-estgio-child1,
+.alunos-com-estgio-child2,
+.alunos-com-estgio-inner,
+.alunos-com-estgio-item {
+  position: absolute;
+  top: 77px;
+  left: 0;
+  background-color: var(--color-gray-100);
+  border-bottom: 2px solid var(--color-steelblue-100);
+  box-sizing: border-box;
+  width: 1321.9px;
+  height: 52px;
+}
+.alunos-com-estgio-child1,
+.alunos-com-estgio-child2,
+.alunos-com-estgio-inner,
+.alunos-com-estgio-item {
+  top: 129px;
+  width: 1319.8px;
+  height: 55px;
+}
+.alunos-com-estgio-child1,
+.alunos-com-estgio-child2,
+.alunos-com-estgio-inner {
+  top: 184px;
+  width: 1321.9px;
+  height: 52px;
+}
+.alunos-com-estgio-child1,
+.alunos-com-estgio-child2 {
+  top: 236px;
+}
+.alunos-com-estgio-child2 {
+  top: 288px;
+}
+.alunos-com-estgio1 {
+  top: 0;
+  left: 5.3px;
+  font-size: var(--font-size-lg);
+  width: 297.6px;
+}
+.alunos-com-estgio1,
+.b95,
+.n-estudante1 {
+  position: absolute;
+  letter-spacing: 0.05em;
+  display: inline-block;
+}
+.b95 {
+  top: 0;
+  left: 310.2px;
+  font-size: var(--font-size-lg);
+  color: var(--color-steelblue-100);
+  width: 26.3px;
+}
+.n-estudante1 {
+  left: 7.4px;
+  width: 97.8px;
+}
+.email1,
+.login1,
+.n-estudante1,
+.nome2 {
+  top: 47px;
+  font-size: var(--font-size-xs-5);
+  font-weight: 500;
+  color: var(--color-steelblue-100);
+}
+.nome2 {
+  position: absolute;
+  left: 186.1px;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  width: 38.9px;
+}
+.email1,
+.login1 {
+  width: 40px;
+}
+.login1 {
+  position: absolute;
+  left: 414.4px;
+  letter-spacing: 0.05em;
+  display: inline-block;
+}
+.email1 {
+  left: 559.5px;
+}
+.div18,
+.div19,
+.email1 {
+  position: absolute;
+  letter-spacing: 0.05em;
+  display: inline-block;
+}
+.div18 {
+  top: 93px;
+  left: 5.3px;
+  font-size: var(--font-size-lg);
+  width: 97.8px;
+}
+.div19 {
+  top: 144px;
+  left: 6.3px;
+  width: 101px;
+}
+.div19,
+.div20,
+.div21 {
+  font-size: var(--font-size-lg);
+}
+.div20 {
+  position: absolute;
+  top: 198px;
+  left: 7.4px;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  width: 99.9px;
+}
+.div21 {
+  top: 252px;
+  left: 5.3px;
+  width: 98.9px;
+}
+.alberto-silva1,
+.ana-alves2,
+.ana-carvalhinho1,
+.div21,
+.div22 {
+  position: absolute;
+  letter-spacing: 0.05em;
+  display: inline-block;
+}
+.div22 {
+  top: 303px;
+  left: 6.3px;
+  font-size: var(--font-size-lg);
+  width: 99.9px;
+}
+.alberto-silva1,
+.ana-alves2,
+.ana-carvalhinho1 {
+  left: 186.1px;
+}
+.ana-carvalhinho1 {
+  top: 93px;
+  font-size: var(--font-size-lg);
+  width: 163px;
+}
+.alberto-silva1,
+.ana-alves2 {
+  top: 147px;
+  width: 123px;
+}
+.ana-alves2 {
+  top: 199px;
+  width: 95.7px;
+}
+.aalves1,
+.alberto1,
+.ana1,
+.antnio-carvalho1,
+.carlos-barreiros1,
+.dourado1,
+.fonseca1 {
+  position: absolute;
+  top: 252px;
+  left: 186.1px;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  width: 155.6px;
+}
+.aalves1,
+.alberto1,
+.ana1,
+.antnio-carvalho1,
+.dourado1,
+.fonseca1 {
+  top: 305px;
+  width: 166.2px;
+}
+.aalves1,
+.alberto1,
+.ana1,
+.dourado1,
+.fonseca1 {
+  top: 94px;
+  left: 414.4px;
+  width: 34.7px;
+}
+.aalves1,
+.alberto1,
+.dourado1,
+.fonseca1 {
+  top: 147px;
+  width: 69.4px;
+}
+.aalves1,
+.dourado1,
+.fonseca1 {
+  top: 199px;
+  width: 61px;
+}
+.dourado1,
+.fonseca1 {
+  top: 252px;
+  width: 75.7px;
+}
+.dourado1 {
+  top: 305px;
+  width: 79.9px;
+}
+.aalvesstudentdeiucpt1,
+.acarvalhostudentdeiucpt1,
+.albertostudentdeiucpt1,
+.barreirosstudentdeiucpt1,
+.carvalhinhostudentdeiucpt1 {
+  position: absolute;
+  top: 95px;
+  left: 560.5px;
+  font-size: var(--font-size-mid);
+  letter-spacing: 0.05em;
+  display: inline-block;
+  width: 349.2px;
+}
+.aalvesstudentdeiucpt1,
+.acarvalhostudentdeiucpt1,
+.albertostudentdeiucpt1,
+.barreirosstudentdeiucpt1 {
+  top: 147px;
+  width: 298.7px;
+}
+.aalvesstudentdeiucpt1,
+.acarvalhostudentdeiucpt1,
+.barreirosstudentdeiucpt1 {
+  top: 199px;
+  left: 559.5px;
+  width: 285px;
+}
+.acarvalhostudentdeiucpt1,
+.barreirosstudentdeiucpt1 {
+  top: 252px;
+  left: 560.5px;
+  width: 318.7px;
+}
+.acarvalhostudentdeiucpt1 {
+  top: 305px;
+  width: 328.1px;
+}
+.editar15,
+.editar16,
+.editar17,
+.editar18,
+.editar19 {
+  position: absolute;
+  top: 147px;
+  left: 1265.2px;
+  letter-spacing: 0.04em;
+  color: var(--color-steelblue-100);
+  display: inline-block;
+  width: 54.7px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.editar16,
+.editar17,
+.editar18,
+.editar19 {
+  top: 305px;
+  left: 1266.2px;
+}
+.editar17,
+.editar18,
+.editar19 {
+  top: 94px;
+  left: 1265.2px;
+}
+.editar18,
+.editar19 {
+  top: 199px;
+}
+.editar19 {
+  top: 252px;
+}
+.alunos-com-estgio {
+  position: absolute;
+  top: 850px;
+  left: 58.1px;
+  width: 1321.9px;
+  height: 340px;
+  font-size: var(--font-size-mid-5);
+}
+.barra-inner {
+  background-color: var(--color-white);
+  border-bottom: 3px solid var(--color-steelblue-100);
+  box-sizing: border-box;
+}
+.barra-inner,
+.barra2 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 114px;
+}
+.admin2 {
+  position: relative;
+  letter-spacing: 0.05em;
+}
+.admin-frame {
+  top: 2px;
+  left: 94px;
+  border-bottom: 1px solid var(--color-steelblue-100);
+  width: 42px;
+  height: 15px;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+}
+.admin-frame,
+.mrio-silva-frame,
+.x-frame {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.x-frame {
+  width: calc(100% - 126px);
+  top: 3px;
+  right: -11px;
+  left: 137px;
+  height: 10px;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  cursor: pointer;
+  font-size: var(--font-size-base);
+  font-family: var(--font-arial);
+}
+.mrio-silva-frame {
+  top: 4px;
+  left: -10px;
+  height: 13px;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-2xs);
+  color: var(--color-black);
+}
+.adm-name2,
+.logo-icon2 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: 1227px;
+  width: 154px;
+  height: 21px;
+}
+.logo-icon2 {
+  top: calc(50% - 23.5px);
+  left: 0;
+  width: 243px;
+  height: 47px;
+  object-fit: cover;
+}
+.logo2 {
+  width: 243px;
+  height: 55px;
+}
+.estgios4,
+.logo2 {
+  position: relative;
+  cursor: pointer;
+}
+.empresas3 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 43px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-inter);
+  color: var(--color-steelblue-100);
+  text-align: left;
+  display: inline-block;
+  width: 101px;
+}
+.administradores2:hover,
+.docentes3:hover,
+.empresas3:hover {
+  mix-blend-mode: normal;
+  color: var(--color-lightskyblue);
+}
+.administradores2,
+.docentes3,
+.empresas3 {
+  position: absolute;
+  left: 0;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+.docentes3 {
+  top: 21px;
+  display: inline-block;
+  width: 101px;
+}
+.administradores2 {
+  top: -1px;
+}
+.submenu2 {
+  position: absolute;
+  top: 35px;
+  left: 5px;
+  background-color: var(--color-white);
+  width: 102px;
+  height: 58px;
+  overflow: hidden;
+  display: none;
+  opacity: 0;
+}
+.submenu2.animate {
+  animation: 0.3s ease 0s 1 normal forwards fade-in;
+}
+.estgios5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.perfissubmenu2 {
+  position: relative;
+  width: 66px;
+  height: 35px;
+}
+.perfissubmenu2:hover {
+  background-color: var(--color-deepskyblue-200);
+}
+.perfissubmenu2:hover .submenu2 {
+  display: flex;
+}
+.categories2,
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.categories2 {
+  width: 642.1px;
+  align-items: flex-start;
+}
+.logo-container {
+  position: absolute;
+  top: 30px;
+  left: 1px;
+  align-items: center;
+  padding: 0 var(--padding-36xl);
+}
+.menu2 {
+  margin: 0;
+  position: absolute;
+  top: -3px;
+  left: -2px;
+  width: 1442px;
+  height: 114px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-steelblue-100);
+  font-family: var(--font-inter);
+}
+.candidaturas-alunos-child,
+.candidaturas-alunos-child1,
+.candidaturas-alunos-child2,
+.candidaturas-alunos-inner,
+.candidaturas-alunos-item {
+  position: absolute;
+  top: 566.5px;
+  left: 1317.5px;
+  border-top: 1px solid var(--color-steelblue-100);
+  box-sizing: border-box;
+  width: 52px;
+  height: 1px;
+}
+.candidaturas-alunos-child1,
+.candidaturas-alunos-child2,
+.candidaturas-alunos-inner,
+.candidaturas-alunos-item {
+  top: 618.5px;
+}
+.candidaturas-alunos-child1,
+.candidaturas-alunos-child2,
+.candidaturas-alunos-inner {
+  top: 672.5px;
+}
+.candidaturas-alunos-child1,
+.candidaturas-alunos-child2 {
+  top: 724.5px;
+  left: 1316.5px;
+}
+.candidaturas-alunos-child2 {
+  top: 777.5px;
+}
+.candidaturas-alunos-child3,
+.candidaturas-alunos-child4,
+.candidaturas-alunos-child5,
+.candidaturas-alunos-child6,
+.candidaturas-alunos-child7 {
+  position: absolute;
+  top: 966.5px;
+  left: 1318.5px;
+  border-top: 1px solid var(--color-steelblue-100);
+  box-sizing: border-box;
+  width: 52px;
+  height: 1px;
+}
+.candidaturas-alunos-child4,
+.candidaturas-alunos-child5,
+.candidaturas-alunos-child6,
+.candidaturas-alunos-child7 {
+  top: 1019.5px;
+}
+.candidaturas-alunos-child5,
+.candidaturas-alunos-child6,
+.candidaturas-alunos-child7 {
+  top: 1071.5px;
+}
+.candidaturas-alunos-child6,
+.candidaturas-alunos-child7 {
+  top: 1124.5px;
+}
+.candidaturas-alunos-child7 {
+  top: 1177.5px;
+  left: 1319.5px;
+}
+.candidaturas-alunos {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1261px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

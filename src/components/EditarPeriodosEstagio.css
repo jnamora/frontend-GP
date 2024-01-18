@@ -1,0 +1,224 @@
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.editar-periodos-estagio-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 954px;
+  height: 989px;
+}
+.guardar-alteraes2 {
+  position: relative;
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.guardar-alteraes-frame {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-steelblue-100);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-6xs);
+  width: 245px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.guardar-alteraes3 {
+  position: relative;
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-steelblue-100);
+  text-align: left;
+}
+.frame-button {
+  border: 1px solid var(--color-steelblue-100);
+  padding: var(--padding-3xs);
+  background-color: var(--color-white);
+  top: 0;
+  left: 0;
+  border-radius: var(--br-6xs);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frame-button,
+.frame-group,
+.press-button1 {
+  position: absolute;
+  width: 245px;
+  height: 64px;
+  cursor: pointer;
+}
+.press-button1 {
+  top: 0;
+  left: 0;
+  display: none;
+}
+.frame-group {
+  top: 875px;
+  left: 631px;
+}
+.frame-group:active .press-button1 {
+  display: flex;
+}
+.curso1,
+.incio-empresas1,
+.perodo-de-estgio1 {
+  position: absolute;
+  top: 198px;
+  left: 78px;
+  letter-spacing: -0.02em;
+}
+.incio-empresas1,
+.perodo-de-estgio1 {
+  top: 333px;
+  left: 77px;
+}
+.incio-empresas1 {
+  top: 468px;
+  left: 78px;
+}
+.fim-empresas1,
+.incio-candidatura-alunos1 {
+  position: absolute;
+  top: 600px;
+  left: 77px;
+  letter-spacing: -0.02em;
+}
+.fim-empresas1 {
+  top: 468px;
+  left: 508px;
+}
+.fim-candidatura-alunos1,
+.fim-docentes2,
+.incio-docentes1 {
+  position: absolute;
+  top: 600px;
+  left: 508px;
+  letter-spacing: -0.02em;
+}
+.fim-docentes2,
+.incio-docentes1 {
+  top: 751px;
+  left: 77px;
+}
+.fim-docentes2 {
+  left: 508px;
+}
+.editar-curso2 {
+  border: 1px solid var(--color-steelblue-100);
+  background-color: transparent;
+  position: absolute;
+  top: 230.5px;
+  left: 77.5px;
+  border-radius: var(--br-6xs);
+  box-sizing: border-box;
+  width: 799px;
+  height: 62px;
+}
+.inicio-empresa1 {
+  position: absolute;
+  top: 506px;
+  left: 81px;
+}
+.inicio-candidatura1,
+.inicio-docentes1 {
+  position: absolute;
+  top: 647px;
+  left: 81px;
+}
+.inicio-docentes1 {
+  top: 789px;
+}
+.fim-candidatura1,
+.fim-empresas2 {
+  position: absolute;
+  top: 506px;
+  left: 508px;
+}
+.fim-candidatura1 {
+  top: 647px;
+}
+.editar-curso3,
+.fim-docentes3 {
+  position: absolute;
+  top: 789px;
+  left: 508px;
+}
+.editar-curso3 {
+  border: 1px solid var(--color-steelblue-100);
+  background-color: transparent;
+  top: 380.5px;
+  left: 77.5px;
+  border-radius: var(--br-6xs);
+  box-sizing: border-box;
+  width: 799px;
+  height: 62px;
+}
+.editar-perodo-de {
+  position: absolute;
+  top: 119px;
+  left: 79px;
+  font-size: var(--font-size-13xl);
+  letter-spacing: -0.02em;
+  display: inline-block;
+  color: var(--color-black);
+  width: 522px;
+  height: 44px;
+}
+.group-inner,
+.vector-group,
+.vector-icon {
+  position: absolute;
+  top: -0.7px;
+  left: -0.7px;
+  width: 35.9px;
+  height: 35.9px;
+}
+.vector-group,
+.vector-icon {
+  cursor: pointer;
+}
+.vector-group {
+  top: 50px;
+  left: 44px;
+  width: 34.5px;
+  height: 34.5px;
+}
+.editar-periodos-estagio {
+  border-left: 2px solid var(--color-steelblue-100);
+  box-sizing: border-box;
+  width: 954px;
+  height: 100%;
+  opacity: 0;
+  max-width: 90%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-lgi);
+  color: var(--color-steelblue-100);
+  font-family: var(--font-inter);
+}
+.editar-periodos-estagio.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-right;
+}

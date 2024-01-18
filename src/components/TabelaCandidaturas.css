@@ -1,0 +1,123 @@
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.tabela-candidaturas-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1134px;
+  height: 1100px;
+}
+.tabela-cand-icon {
+  position: absolute;
+  top: 108px;
+  left: 0;
+  width: 1088px;
+  height: 699px;
+  object-fit: cover;
+}
+.group-child7,
+.group-child8,
+.group-div {
+  position: absolute;
+  top: -0.7px;
+  left: -0.7px;
+  width: 35.9px;
+  height: 35.9px;
+}
+.group-child8,
+.group-div {
+  cursor: pointer;
+}
+.group-div {
+  top: 50px;
+  left: 44px;
+  width: 34.5px;
+  height: 34.5px;
+}
+.guardar-alteraes10 {
+  position: relative;
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.guardar-alteraes-wrapper7 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-steelblue-100);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-6xs);
+  width: 245px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.guardar-alteraes11 {
+  position: relative;
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-steelblue-100);
+  text-align: left;
+}
+.guardar-alteraes-wrapper8 {
+  border: 1px solid var(--color-steelblue-100);
+  padding: var(--padding-3xs);
+  background-color: var(--color-white);
+  top: 0;
+  left: 0;
+  border-radius: var(--br-6xs);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frame-parent2,
+.guardar-alteraes-wrapper8,
+.press-button5 {
+  position: absolute;
+  width: 245px;
+  height: 64px;
+  cursor: pointer;
+}
+.press-button5 {
+  top: 0;
+  left: 0;
+  display: none;
+}
+.frame-parent2 {
+  top: 837px;
+  left: 843px;
+}
+.frame-parent2:active .press-button5 {
+  display: flex;
+}
+.tabela-candidaturas {
+  border-left: 2px solid var(--color-steelblue-100);
+  box-sizing: border-box;
+  width: 1134px;
+  height: 100%;
+  opacity: 0;
+  max-width: 90%;
+  overflow: auto;
+}
+.tabela-candidaturas.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-right;
+}

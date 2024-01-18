@@ -1,0 +1,418 @@
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.editar-dados-proposta-child,
+.editar-dados-proposta-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  border-left: 1px solid var(--color-steelblue-100);
+  box-sizing: border-box;
+  width: 985px;
+  height: 1591px;
+}
+.editar-dados-proposta-item {
+  height: 1607px;
+}
+.editar-dados-proposta-inner {
+  border: 2px solid var(--color-steelblue-100);
+  background-color: transparent;
+  position: absolute;
+  top: 1466px;
+  left: 308px;
+  border-radius: var(--br-6xs);
+  box-sizing: border-box;
+  width: 641px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  color:black;
+}
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-steelblue-100);
+  width: 269px;
+  height: 1607px;
+}
+.dados-da-proposta {
+  color: var(--color-steelblue-100);
+}
+.editar-dados-da-container {
+  position: absolute;
+  top: 126px;
+  left: 311px;
+  font-size: var(--font-size-13xl);
+  letter-spacing: -0.02em;
+  display: inline-block;
+  width: 404px;
+  height: 44px;
+  color: var(--color-black);
+}
+.group-child1 {
+  position: absolute;
+  top: -0.7px;
+  left: -0.7px;
+  width: 35.9px;
+  height: 35.9px;
+}
+.vector-container {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 49px;
+  left: 312.7px;
+  width: 34.5px;
+  height: 34.5px;
+}
+.p {
+  margin: 0;
+}
+.objectivos-pouco-claros-container {
+  position: absolute;
+  top: 49px;
+  left: 31px;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.02em;
+  color: var(--color-white);
+}
+.adicionar-comentrio {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.adicionar-comentrio-wrapper,
+.botao-add-comment {
+  position: absolute;
+  width: 202px;
+  height: 43px;
+  cursor: pointer;
+}
+.adicionar-comentrio-wrapper {
+  border: 2px solid var(--color-white);
+  padding: var(--padding-3xs);
+  background-color: var(--color-steelblue-100);
+  top: 5px;
+  left: 0;
+  border-radius: var(--br-6xs);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.botao-add-comment {
+  top: 579px;
+  left: 31px;
+}
+.novo-comentrio {
+  position: absolute;
+  top: 245px;
+  left: 31px;
+  letter-spacing: -0.02em;
+  color: var(--color-white);
+}
+.rectangle-textarea {
+  border: 2px solid var(--color-white);
+  background-color: var(--color-steelblue-100);
+  position: absolute;
+  top: 276px;
+  left: 31px;
+  border-radius: var(--br-6xs);
+  box-sizing: border-box;
+  width: 202px;
+  height: 291px;
+  color:white;
+}
+.aluno,
+.aluno-indicado,
+.orientadores {
+  position: absolute;
+  top: 1435px;
+  left: 309px;
+  letter-spacing: -0.02em;
+  display: inline-block;
+  width: 61px;
+}
+.aluno-indicado,
+.orientadores {
+  top: 1372px;
+  width: 127px;
+}
+.orientadores {
+  top: 1213px;
+  width: 120px;
+}
+.enquadramento,
+.objetivos,
+.plano-de-trabalhos,
+.ttulo-do-estgio {
+  position: absolute;
+  top: 934px;
+  left: 308px;
+  letter-spacing: -0.02em;
+  display: inline-block;
+  width: 165px;
+}
+.enquadramento,
+.objetivos,
+.ttulo-do-estgio {
+  top: 702px;
+  left: 307px;
+  width: 90px;
+}
+.enquadramento,
+.ttulo-do-estgio {
+  top: 469px;
+  width: 145px;
+}
+.ttulo-do-estgio {
+  top: 373px;
+  width: 149px;
+}
+.rea-de-especialidade,
+.rea-de-especialidade1 {
+  position: absolute;
+  top: 181px;
+  left: 683px;
+  display: inline-block;
+  width: 188px;
+}
+.rea-de-especialidade1 {
+  top: 276px;
+  left: 682px;
+}
+.guardar-alteraes4 {
+  position: relative;
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.guardar-alteraes-wrapper1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-steelblue-100);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-6xs);
+  width: 245px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.guardar-alteraes5 {
+  position: relative;
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-steelblue-100);
+  text-align: left;
+}
+.guardar-alteraes-wrapper2 {
+  border: 1px solid var(--color-steelblue-100);
+  padding: var(--padding-3xs);
+  background-color: var(--color-white);
+  top: 0;
+  left: 0;
+  border-radius: var(--br-6xs);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.botao-guardar,
+.guardar-alteraes-wrapper2,
+.press-button2 {
+  position: absolute;
+  width: 245px;
+  height: 64px;
+  cursor: pointer;
+}
+.press-button2 {
+  top: 0;
+  left: 0;
+  display: none;
+}
+.botao-guardar {
+  top: 1527px;
+  left: 707px;
+  border-radius: var(--br-6xs);
+}
+.botao-guardar:active .press-button2 {
+  display: flex;
+}
+.perodo-de-estgio2,
+.perodo-de-estgio3 {
+  position: absolute;
+  top: 181px;
+  left: 307px;
+  display: inline-block;
+  width: 158px;
+}
+.perodo-de-estgio3 {
+  top: 276px;
+  left: 306px;
+}
+.editar-dados-proposta-child1 {
+  position: absolute;
+  top: 205px;
+  left: 306px;
+  width: 401px;
+  height: 40px;
+}
+.container,
+.wrapper {
+  position: absolute;
+  top: 208.5px;
+  left: 311.5px;
+}
+.container {
+  top: 303.5px;
+  left: 310.5px;
+}
+.editar-dados-proposta-child2,
+.frame-input {
+  border: 1px solid var(--color-steelblue-100);
+  background-color: #fffefe;
+  position: absolute;
+  top: 494px;
+  left: 308px;
+  border-radius: var(--br-6xs);
+  box-sizing: border-box;
+  width: 640px;
+  height: 178px;
+  color:black;
+}
+.frame-input {
+  border: 2px solid var(--color-steelblue-100);
+  background-color: transparent;
+  top: 1244px;
+  width: 641px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.rectangle-input {
+  border: 1px solid var(--color-steelblue-100);
+  background-color: var(--color-white);
+  top: 398px;
+  left: 307px;
+  width: 641px;
+  height: 42px;
+}
+.editar-dados-proposta-child3,
+.editar-dados-proposta-child4,
+.rectangle-input {
+  position: absolute;
+  border-radius: var(--br-6xs);
+  box-sizing: border-box;
+  color:black;
+}
+.editar-dados-proposta-child3 {
+  border: 1px solid var(--color-steelblue-100);
+  background-color: var(--color-white);
+  top: 727px;
+  left: 309px;
+  width: 639px;
+  height: 178px;
+  color:black;
+}
+.editar-dados-proposta-child4 {
+  border: 2px solid var(--color-steelblue-100);
+  background-color: transparent;
+  top: 1293px;
+  left: 308px;
+  width: 641px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  color:black;
+}
+.maria-lima-alimastudentdeiu {
+  position: absolute;
+  top: 1403px;
+  left: 323px;
+  letter-spacing: 0.05em;
+  color: var(--color-black);
+}
+.line-div {
+  position: absolute;
+  top: 1418.5px;
+  left: 405.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 211px;
+  height: 1px;
+}
+.editar-dados-proposta-child5,
+.editar-dados-proposta-child6 {
+  border: 1px solid var(--color-steelblue-100);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 966px;
+  left: 309px;
+  border-radius: var(--br-6xs);
+  box-sizing: border-box;
+  width: 639px;
+  height: 93px;
+  color:black;
+}
+.editar-dados-proposta-child6 {
+  top: 1066px;
+}
+.frame,
+.frame-stack {
+  position: absolute;
+  top: 208.5px;
+  left: 679.5px;
+}
+.frame-stack {
+  top: 303.5px;
+  left: 678.5px;
+}
+.editar-dados-proposta {
+  background-color: var(--color-whitesmoke);
+  width: 985px;
+  height: 100%;
+  opacity: 0;
+  max-width: 90%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-steelblue-100);
+  font-family: var(--font-inter);
+}
+.editar-dados-proposta.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-right;
+}

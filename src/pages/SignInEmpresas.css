@@ -1,0 +1,184 @@
+.log-in-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1442px;
+  height: 876.9px;
+  object-fit: cover;
+  display: none;
+  opacity: 0.5;
+}
+.captura-de-ecra-2023-12-09-a {
+  position: absolute;
+  height: calc(100% - 2px);
+  width: calc(100% - 767px);
+  top: 2px;
+  right: 767px;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.captura-de-ecra-2023-12-09-a1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 292px;
+  height: 126px;
+  object-fit: cover;
+}
+.insira-o-seu {
+  top: calc(50% - 48px);
+}
+.insira-a-sua,
+.insira-o-nif,
+.insira-o-seu {
+  position: absolute;
+  left: calc(50% - 216.5px);
+}
+.insira-a-sua {
+  border: 0;
+  background-color: transparent;
+  top: calc(50% + 19px);
+}
+.insira-o-nif {
+  top: calc(50% + 87px);
+}
+.j-tenho-conta {
+  font-weight: 500;
+}
+.entrar,
+.j-tenho-conta {
+  font-family: var(--font-inter);
+}
+.j-tenho-conta-container {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 18px;
+  font-size: var(--font-size-2xl);
+  color: var(--color-steelblue-100);
+  text-align: left;
+  display: inline-block;
+  width: 240px;
+  height: 25px;
+}
+.registar-empresa-child {
+  position: absolute;
+  top: 24px;
+  left: 177px;
+  width: 66px;
+  height: 2px;
+}
+.registar-empresa {
+  position: absolute;
+  top: 659px;
+  left: -2px;
+  width: 258px;
+  height: 32px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.criar {
+  position: relative;
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.criar-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-steelblue-100);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-6xs);
+  width: 153px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.criar1 {
+  position: relative;
+  font-size: var(--font-size-2xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-steelblue-100);
+  text-align: left;
+}
+.criar-container,
+.frame-parent8,
+.press-button11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 64px;
+  cursor: pointer;
+}
+.criar-container {
+  border: 1px solid var(--color-steelblue-100);
+  padding: var(--padding-3xs);
+  background-color: var(--color-white);
+  border-radius: var(--br-6xs);
+  box-sizing: border-box;
+  width: 154px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frame-parent8,
+.press-button11 {
+  width: 153px;
+}
+.frame-parent8 {
+  top: 627px;
+  left: 278px;
+}
+.frame-parent8:active .press-button11 {
+  display: flex;
+}
+.frame5 {
+  align-self: stretch;
+  position: relative;
+  height: 694px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame4,
+.log-in {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frame4 {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.log-in {
+  position: absolute;
+  top: 98px;
+  right: 141px;
+  width: 433px;
+  height: 709px;
+  justify-content: flex-start;
+}
+.sign-in-empresas {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+}
